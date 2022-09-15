@@ -13,7 +13,7 @@ module.exports = (sequelize, dataTypes) => {
             type: dataTypes.STRING(100),
             allowNull: false,
         },
-        rating: {
+        ranking: {
             type: dataTypes.INTEGER.UNSIGNED,
             allowNull: false,
             unique: true
